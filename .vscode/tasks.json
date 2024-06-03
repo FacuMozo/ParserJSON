@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o", "${workspaceFolder}/build/proyecto",
+                "${workspaceFolder}/src/ParserJson.cpp",
+                "${workspaceFolder}/src/AS0.cpp",
+                "${workspaceFolder}/src/AS1.cpp",
+                "${workspaceFolder}/src/AS2.cpp",
+                "${workspaceFolder}/src/AS3.cpp",
+                "${workspaceFolder}/src/AS4.cpp",
+                "${workspaceFolder}/src/AS5.cpp",
+                "${workspaceFolder}/src/AS6.cpp",
+                "${workspaceFolder}/src/AS7.cpp",
+                "${workspaceFolder}/src/ASMultiple.cpp",
+                "${workspaceFolder}/src/matrizTransicion.cpp",
+                "${workspaceFolder}/src/main.cpp",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}

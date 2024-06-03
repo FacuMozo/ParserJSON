@@ -1,0 +1,62 @@
+CASO 0:
+
+{      
+	"a":2 , 
+	"b" : { 
+		"c" :{ 
+			"d":"hola" 
+		}
+	}, 
+	"c":true 
+}
+
+CASO 1:
+
+  {      
+	"a":2, 
+	"a2":2.2 , 
+	"b" : { 
+		"c" :{ 
+			"d":"hola" 
+		}
+	}, 
+	"c":true 
+}
+
+
+    
+CASO 2,  tiene un { } de mas
+
+{ 	
+	"a":2, 
+	"b" : { 
+		"b1" : "hola" 
+	}, 
+	"c":true 
+},{ "a":2 }
+
+CASO 3, falta el :
+
+{
+	"a"2, 
+	"b" : { 
+		"b1" : "hola" 
+	}, 
+	"c":true 
+}
+
+CASO 4, 
+
+{ "a":2}, "a":2 
+    
+CASO 5, falta el }
+
+    { "a":2, "b" : { "b1" : "hola" }, "c":true
+
+CASO 6,   tru en vez de true
+    
+{ "a:"2, "b" : { "b1" : "hola" }, "c":tru} 
+
+CASO 7 = en vez de :
+
+{ "a"=2, "b" : { "b1" : "hola" }, "c"=true} 
